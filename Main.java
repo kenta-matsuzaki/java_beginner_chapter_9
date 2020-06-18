@@ -18,5 +18,9 @@ public class Main {
     w.heal(h2);
     
     System.out.println(h1.name + "の現在の武器は" + h1.sword.name);
+
+    Hero.setRandomMoney();
+    System.out.println(Hero.money);
+    System.out.println(h1.money);
   }
 }

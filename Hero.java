@@ -1,6 +1,16 @@
 public class Hero {
-  String name;
   int hp;
+  String name;
+  
+  Hero(String name){
+    this.hp = 100;
+    this.name = name;
+  }
+
+  Hero(){
+    this("ダミー");
+  }
+
   Sword sword;
   void attack(){
     System.out.println(this.name + "は攻撃した！");

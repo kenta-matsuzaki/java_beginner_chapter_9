@@ -4,14 +4,10 @@ public class Main {
     s.name = "炎の剣";
     s.damage = 10;
     
-    Hero h1 = new Hero();
-    h1.name = "健太";
-    h1.hp = 383;
+    Hero h1 = new Hero("健太");
     h1.sword = s;
 
-    Hero h2 = new Hero();
-    h2.name = "松崎";
-    h2.hp = 182;
+    Hero h2 = new Hero("松崎");
 
     Wizard w = new Wizard();
     w.name = "スガワラ";

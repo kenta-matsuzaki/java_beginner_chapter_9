@@ -12,6 +12,9 @@ public class Main {
     Wizard w = new Wizard();
     w.name = "スガワラ";
     w.hp = 88;
+
+    Cleric c = new Cleric("美穂子", 35, 80);
+    c.selfAid();
     
     w.heal(h1);
     w.heal(h2);
